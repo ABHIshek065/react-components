@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 300px;
+  margin: 20px auto;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-header {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.rating {
+  background-color: white;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin: 12px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
+
+}
+
+.author{
+ 
+}
+
